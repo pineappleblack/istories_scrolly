@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Proto Grotesk';
+  src: local('☺️'),
+   url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.woff2') format('woff2'),
+   url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.woff') format('woff'),
+   url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+ }
+
+ @media screen and (max-width: 600px) {
+  * { 
+    font-size: 12px !important;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+
+  .lead, .lead a {
+    font: normal 15px Proto Grotesk,"sans-serif" !important;
+  }
+
+  .authors, .authors a {
+    font: 600 10px IBM Plex Mono,Georgia,"serif" !important;
+  }
+ }
+
+* {
+  font: normal 15px "Proto Grotesk", "sans-serif";
+}
+
+#scrolly {
+  position: relative;
+}
+
+article {
+  position: relative;
+  padding: 0;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+figure {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 0;
+}
+
+figure p {
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.step {
+    margin: 0 auto 2rem auto;
+    color: #fff;
+}
+
+.step:last-child {
+    margin-bottom: 0;
+}
+
+.step.is-active p {
+    background-color: goldenrod;
+    color: #3b3b3b;
+}
+
+.step p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #3b3b3b;
+}
+     
+.visible-part { 
+  text-align: center;
+  border: 0.25em solid #99372e;
+  background-color: #fff;
+  color: #000;
+  padding: 4em 2em;
+}
+
+a {
+  color: #99372e;
+}
+
+.start {
+  border: 0.25em solid #000;
+  padding: 0.25em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lead {
+  margin: 0 20px 10px;
+  font: normal 20px/24px Proto Grotesk,"sans-serif"
+}
+
+.lead a {
+  font: normal 20px/24px Proto Grotesk,"sans-serif"
+}
+
+.authors {
+  margin: 0 20px 10px;
+  font: 600 11.5px/18px IBM Plex Mono,Georgia,"serif";
+  text-transform: uppercase;
+}
+
+.authors a {
+  font: 600 11.5px/18px IBM Plex Mono,Georgia,"serif";
+  text-decoration: none;
+  color: #000
+}
+
+.authors a:hover {
+  text-decoration: underline;
+  color: #99372e
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-family: Proto Grotesk,"sans-serif";
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0 20px 10px; 
+}
+
+.social {
+  margin: 20px auto;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.social a {
+  margin-right: 10px;
+}
